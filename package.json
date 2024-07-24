@@ -1,0 +1,17 @@
+{
+  "name": "vite-js-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development -- --env VITE_SOME_KEY=psatek",
+    "build": "vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.3.4"
+  }
+}
